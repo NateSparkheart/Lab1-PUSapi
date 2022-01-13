@@ -31,7 +31,7 @@
 Вненсти в базу данных новую аппаратуру:
 Запрос типа POST http://localhost:8080/api/v1/product/
 
-Тело запроса (JSON): {"name": "Брут", "weight": 300, "price": 350, "category": "Бургеры" }
+
 
 Удаление записи из базы данных по id:
 Тип запроса DELETE http://localhost:8080/api/v1/product/5
