@@ -23,15 +23,15 @@
 Запрос типа GET http://localhost:8080/api/v1/status
 
 Получить всех записи из базы данных:
-Запрос типа GET http://localhost:8080/api/v1/product
+Запрос типа GET http://localhost:8080/api/v1/products
 
 Получить запись из базы данных по id (4):
-Запрос типа GET http://localhost:8080/api/v1/product/4
+Запрос типа GET http://localhost:8080/api/v1/products/4
 
 Вненсти в базу данных новую аппаратуру:
-Запрос типа POST http://localhost:8080/api/v1/product/
+Запрос типа POST http://localhost:8080/api/v1/products/
 
 
 
 Удаление записи из базы данных по id:
-Тип запроса DELETE http://localhost:8080/api/v1/product/5
+Тип запроса DELETE http://localhost:8080/api/v1/products/5
