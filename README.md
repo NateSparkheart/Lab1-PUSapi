@@ -16,9 +16,11 @@
    docker run -e POSTGRES_PASSWORD=root -p 5432:5432 postgres
 3. Заполнить базу данных данных с помощью файлов, находящихся в директории PUSapi/Исходный код/Ресурсы/
 4. Собрать с помощью команды 
+
    docker build . -t myapi:latest 
    докер-образ приложения (докер-файл находится в директории PUSapi/Исходный код/Dockerfile/)
 5. Запустить докер-контейнер с приложением: 
+
    docker run -p 8080:8080 myapi:latest
 
 Чтобы собрать приложение в Maven из командной строки необходимо использовать команду:
@@ -26,17 +28,27 @@
 
 Запросы к API (к endpoint-ам приложения):
 Получить имя хоста:
-Запрос типа GET http://localhost:8080/api/v1/status
+Запрос типа GET 
+
+http://localhost:8080/api/v1/status
 
 Получить всех записи из базы данных:
-Запрос типа GET http://localhost:8080/api/v1/product
+Запрос типа GET
+
+http://localhost:8080/api/v1/product
 
 Получить запись из базы данных по id (4):
-Запрос типа GET http://localhost:8080/api/v1/product/4
+Запрос типа GET
+
+http://localhost:8080/api/v1/product/4
 
 Вненсти в базу данных новую аппаратуру:
-Запрос типа POST http://localhost:8080/api/v1/product/
+Запрос типа POST 
+
+http://localhost:8080/api/v1/product/
+
 Тело запроса(пример):
+
 {
 	"name": "Мультиплексор",
 	"brand": "Стрела",
@@ -45,4 +57,6 @@
 }
 
 Удаление записи из базы данных по id:
-Тип запроса DELETE http://localhost:8080/api/v1/products/5
+Тип запроса DELETE 
+
+http://localhost:8080/api/v1/products/5
