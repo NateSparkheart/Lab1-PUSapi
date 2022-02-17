@@ -23,13 +23,13 @@
 Запрос типа GET http://localhost:8080/api/v1/status
 
 Получить всех записи из базы данных:
-Запрос типа GET http://localhost:8080/api/v1/products
+Запрос типа GET http://localhost:8080/api/v1/product
 
 Получить запись из базы данных по id (4):
-Запрос типа GET http://localhost:8080/api/v1/products/4
+Запрос типа GET http://localhost:8080/api/v1/product/4
 
 Вненсти в базу данных новую аппаратуру:
-Запрос типа POST http://localhost:8080/api/v1/products/
+Запрос типа POST http://localhost:8080/api/v1/product/
 
 
 
