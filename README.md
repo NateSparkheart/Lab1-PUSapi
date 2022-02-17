@@ -63,4 +63,4 @@ http://localhost:8080/api/v1/product/
 Удаление записи из базы данных по id:
 Тип запроса DELETE 
 
-http://localhost:8080/api/v1/products/5
+http://localhost:8080/api/v1/product/5
