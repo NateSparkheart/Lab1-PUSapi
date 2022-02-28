@@ -74,7 +74,8 @@ CI/CD и деплой приложения в Heroku
 
 Цель работы работы: Знакомство с CI/CD и его реализацией на примере Travis CI и Heroku.
 
-Ссылка на CI Badge: https://app.travis-ci.com/NateSparkheart/simpleapi.svg?branch=master
+Ссылка на CI Badge: 
+[![Build Status](https://app.travis-ci.com/NateSparkheart/simpleapi.svg?branch=master)](https://app.travis-ci.com/NateSparkheart/simpleapi)
 
 Ошибка, мешающая деплою приложения
 
